@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Montserrat:wght@100;300;500&display=swap');
+.about{
+    font-family:'Monserrat';
+    position: relative;
+    z-index: -1;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 65vw;
+    left:30vw;
+    top:30vh;
+    padding: 2vh;
+}
+
+.intro h1{
+    font-size: 50;
+    font-family: 'Cabin Sketch';
+    padding: 2vh;
+}
+
+.intro span{
+    padding: 2vh;
+}
+
+@media screen and (max-width:600px) {
+    .intro{
+        left: 4vw;
+        top:20vh;
+        width:70vw;
+    }
+
+    .intro h1{
+        font-size:30;
+    }
+    
+    .intro span{
+        font-size: 20;
+        width: 70vw;  
+    }
+}
+

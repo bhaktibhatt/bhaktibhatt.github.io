@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+ *{
+    font-family: 'Montserrat';
+    margin:0%;
+    font-size: 1.5vw;
+    
+ }
+ body{
+   background-color: #515151;
+ }
+ 
+ .color{
+   background-color:#000000
+#6C4AB6
+#8D72E1
+#8D9EFF
+#B9E0FF
+#52057B
+#892CDC
+#BC6FF1;
+ }

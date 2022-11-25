@@ -1,0 +1,18 @@
+.projects{
+    display: flex;
+    height: 70vh;
+    width:80vw;
+    background-color: red;
+    position: absolute;
+    top:100vh;
+    margin: 3vw;
+
+}
+.project-card{
+    position: relative;
+    
+    height: 60vh;
+    width:30vw;
+    margin:0.5vw;
+    background-color: #8D72E1;
+}
