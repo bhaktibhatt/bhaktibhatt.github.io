@@ -1,18 +1,110 @@
 .projects{
+    position: relative;
+    top:90vh;
     display: flex;
-    height: 70vh;
-    width:80vw;
-    background-color: red;
-    position: absolute;
-    top:100vh;
-    margin: 3vw;
+    padding: 3rem;
+    color:white
 
 }
+.projects hr{
+    position: absolute;
+    top:-20vh;
+    width: 86vw;
+    margin: 0;
+    left: 2vw;
+}
+.card-list{
+    display: flex;
+    padding:3rem;
+}
+.projects p{
+    position: absolute;
+    top:-11vh;
+}
 .project-card{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top:3vh;
+    height: 30vh;
+    width:20vw;
+    min-width:20vw;
+    padding: 2rem;
+    transition: 0.4s;
     
-    height: 60vh;
-    width:30vw;
-    margin:0.5vw;
-    background-color: #8D72E1;
+    
+    border-radius: 16px;
+    box-shadow: -1rem 0 3rem rgb(35, 34, 34);
+}
+.project-card:hover{
+    background-color: #5e76fe;
+    transform: translateY(-2rem);
+    cursor: pointer;
+}
+
+.project-card:hover~.project-card{
+    transform: translateX(15vw);
+}
+.project-card p{
+    position: absolute;
+    top:4vh;
+    padding-bottom: 0.1vh; 
+}
+.project-card img{
+    width:25vw;
+    height:22vh;
+    margin-top:0.1vh;
+    opacity: 0.8;
+}
+
+.project-card img:hover{
+    opacity: 1;
+}
+
+.GSP-card{
+    display: flex;
+    left:12rem;
+    margin-right: 2rem;
+    background-color: #8D9EFF;
+}
+.C-card{
+    left:28rem;
+    margin-left:2rem;
+    background-color: #8D9EFF;
+}
+.IG-card{
+    left:38rem;
+    background-color: #8D9EFF;
+}
+.pr-link{
+    all:unset;
+    
+}
+.project-card:not(:first-child) {
+    margin-left: -130px;
+}
+@media screen and (max-width:600px) {
+    .projects{
+        top:70vh;
+    }
+    .projects p{
+        font-size: 20px;
+    }
+    .project-card{
+        height: 20vh;
+    }
+    .project-card img{
+        height: 10vh;
+    }
+    .GSP-card{
+        left:10vh;
+    }
+    .C-card{
+        left:30vh;
+    }
+    .IG-card{
+        left:40vh;
+    }
 }
