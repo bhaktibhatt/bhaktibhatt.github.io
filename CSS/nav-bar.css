@@ -10,6 +10,7 @@
     width:7vw;
     height: 100vh;
     color: #6C4AB6;
+    
    }
 .logo{
    position: relative;
@@ -33,9 +34,10 @@
 }
 .links:hover{
    color:#8672b1
+   
 }
 .links:active{
-   color: #8672b1;
+   color: #a782f7;
 }
 
 @media screen and (max-width:600px){

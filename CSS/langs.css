@@ -1,29 +1,19 @@
 .langs{
-    background: ;
-    position: absolute;
-    bottom:0;
+    padding-top:20px;
     color: white;
 }
 .langs hr{
-    position: relative;
+   
     background-color:white;
-    bottom: -81vh ;
     width: 86vw;
     margin: 0;
     padding: 0;
-    left: 2vw;
 } 
 
-.langs p{
-    position: relative;
-    bottom: -83vh;
-    left:5vw;
-}
+
 .lang-links{
     display: flex;
     justify-content: center;
-    position: relative;
-    bottom:-86vh;
 }
 .lang-links a{
     font-weight: bold;
@@ -32,8 +22,16 @@
     margin: 2vmax;
     padding:2vmax;
     transition: 0.5s;
+    cursor: pointer;
 }
 .lang-links a:hover{
     color: #B9E0FF;
     text-decoration: underline;
+    
+}
+
+@media screen and (max-width:600px){
+    .lang-links{
+        flex-direction: column;
+    }
 }

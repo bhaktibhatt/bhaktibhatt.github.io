@@ -1,19 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Montserrat:wght@100;300;500&display=swap');
 .about{
     font-family:'Monserrat';
-    position: relative;
     z-index: -1;
     color:white;
+    background-color: #6C4AB6;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    
 }
-
+.intro-container{
+    padding-top:200px;
+    position: relative;
+}
 .intro{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 65vw;
-    left:30vw;
-    top:30vh;
+    align-items: center;
+    left: 200;
+    background-color: #BC6FF1;
+    border-radius: 30px;
+    width: 50vw;
     padding: 2vh;
+
+    -webkit-box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
+    box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
+
 }
 
 .intro h1{
@@ -22,11 +37,19 @@
     padding: 2vh;
 }
 
-.intro span{
-    padding: 2vh;
-}
+
+/* @keyframes nameShow{
+    from{
+        transition: opacity;
+    }
+
+} */
 
 @media screen and (max-width:600px) {
+    .about{
+        width:100%;
+        height: 50vh;
+    }
     .intro{
         left: 4vw;
         top:20vh;

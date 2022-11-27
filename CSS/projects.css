@@ -1,45 +1,52 @@
 .projects{
-    position: relative;
-    top:90vh;
+    
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 3rem;
-    color:white
+    color:white;
+    background: rgb(108,74,182);
+    background: linear-gradient(180deg, rgba(108,74,182,1) 0%, rgba(172,138,250,1) 35%, rgba(188,111,241,1) 100%);
+    margin-top: 200px;
+    padding-top:100px;
 
 }
-.projects hr{
+
+
+/* .projects hr{
     position: absolute;
     top:-20vh;
     width: 86vw;
     margin: 0;
     left: 2vw;
-}
+} */
+
 .card-list{
     display: flex;
     padding:3rem;
 }
-.projects p{
-    position: absolute;
-    top:-11vh;
-}
+
 .project-card{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    top:3vh;
-    height: 30vh;
+    height: 35vh;
     width:20vw;
     min-width:20vw;
     padding: 2rem;
     transition: 0.4s;
-    
+
+    color:#282727;
+    background-color: #B9E0FF;
     
     border-radius: 16px;
     box-shadow: -1rem 0 3rem rgb(35, 34, 34);
 }
 .project-card:hover{
-    background-color: #5e76fe;
+    background-color: #68bbfe;
+    
+    color:white;
     transform: translateY(-2rem);
     cursor: pointer;
 }
@@ -48,63 +55,43 @@
     transform: translateX(15vw);
 }
 .project-card p{
-    position: absolute;
-    top:4vh;
     padding-bottom: 0.1vh; 
 }
+
 .project-card img{
-    width:25vw;
+    width:24vw;
     height:22vh;
     margin-top:0.1vh;
-    opacity: 0.8;
 }
 
-.project-card img:hover{
-    opacity: 1;
-}
 
-.GSP-card{
-    display: flex;
-    left:12rem;
-    margin-right: 2rem;
-    background-color: #8D9EFF;
-}
-.C-card{
-    left:28rem;
-    margin-left:2rem;
-    background-color: #8D9EFF;
-}
-.IG-card{
-    left:38rem;
-    background-color: #8D9EFF;
-}
 .pr-link{
-    all:unset;
-    
+    all:unset;  
 }
+
 .project-card:not(:first-child) {
     margin-left: -130px;
 }
-@media screen and (max-width:600px) {
-    .projects{
-        top:70vh;
+@media screen and (max-width:400px){
+    .project-card p{
+        font-size: 0.1em;
     }
+}
+@media screen and (max-width:600px) {
     .projects p{
-        font-size: 20px;
+        font-size: 1em;
     }
     .project-card{
-        height: 20vh;
+        height: 25vh;
+        width: 40vw;
+    }
+    .card-list{margin: 20px;}
+    .project-card p{
+        font-size: 0.6em;
+        font-weight: 600;
     }
     .project-card img{
-        height: 10vh;
-    }
-    .GSP-card{
-        left:10vh;
-    }
-    .C-card{
-        left:30vh;
-    }
-    .IG-card{
-        left:40vh;
+        height: 15vh;
+        width: 50vw;
     }
 }
