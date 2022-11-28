@@ -2,15 +2,9 @@
     padding-top:20px;
     color: white;
 }
-.langs hr{
-   
-    background-color:white;
-    width: 86vw;
-    margin: 0;
-    padding: 0;
-} 
-
-
+.langs p{
+    margin-left:20px
+}
 .lang-links{
     display: flex;
     justify-content: center;
@@ -31,6 +25,9 @@
 }
 
 @media screen and (max-width:600px){
+    .langs p{
+        margin-left: 10px;
+    }
     .lang-links{
         flex-direction: column;
     }

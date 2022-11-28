@@ -5,7 +5,7 @@
     color:white;
     background-color: #6C4AB6;
     width: 100%;
-    height: 40vh;
+    height:300px;
     display: flex;
     align-items: center;
     
@@ -22,8 +22,8 @@
     left: 200;
     background-color: #BC6FF1;
     border-radius: 30px;
-    width: 50vw;
-    padding: 2vh;
+    width: 750px;
+    padding: 30px;
 
     -webkit-box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
@@ -34,7 +34,6 @@
 .intro h1{
     font-size: 50;
     font-family: 'Cabin Sketch';
-    padding: 2vh;
 }
 
 
@@ -48,12 +47,12 @@
 @media screen and (max-width:600px) {
     .about{
         width:100%;
-        height: 50vh;
+        height: 300px;
     }
     .intro{
-        left: 4vw;
-        top:20vh;
-        width:70vw;
+        left: 20;
+        top:200;
+        width:250;
     }
 
     .intro h1{
@@ -61,8 +60,8 @@
     }
     
     .intro span{
-        font-size: 20;
-        width: 70vw;  
+        font-size: 20; 
+        padding-top: 20;
     }
 }
 
