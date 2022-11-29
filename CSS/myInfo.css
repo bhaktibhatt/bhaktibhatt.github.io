@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Montserrat:wght@100;300;500&display=swap');
+.about{
+    font-family:'Monserrat';
+    z-index: -1;
+    color:white;
+<<<<<<< HEAD
+=======
+    background-color: #6C4AB6;
+>>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+    width: 100%;
+    height:300px;
+    display: flex;
+    align-items: center;
+    
+}
+.intro-container{
+    padding-top:200px;
+    position: relative;
+}
+.intro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+<<<<<<< HEAD
+    left: 200px;
+=======
+    left: 200;
+>>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+    background-color: #BC6FF1;
+    border-radius: 30px;
+    width: 750px;
+    padding: 30px;
+
+    -webkit-box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
+    box-shadow: inset 2px 4px 13px 4px rgba(0,0,0,0.75);
+
+}
+
+.intro h1{
+<<<<<<< HEAD
+    font-size: 50px;
+    font-family: 'Cabin Sketch';
+}
+
+=======
+    font-size: 50;
+    font-family: 'Cabin Sketch';
+}
+
+
+/* @keyframes nameShow{
+    from{
+        transition: opacity;
+    }
+
+} */
+
+>>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+@media screen and (max-width:600px) {
+    .about{
+        width:100%;
+        height: 300px;
+    }
+    .intro{
+<<<<<<< HEAD
+        left: 20px;
+        top:200px;
+        width:250px;
+    }
+
+    .intro h1{
+        font-size:30px;
+    }
+    
+    .intro span{
+        font-size: 20px; 
+        padding-top: 20px;
+=======
+        left: 20;
+        top:200;
+        width:250;
+    }
+
+    .intro h1{
+        font-size:30;
+    }
+    
+    .intro span{
+        font-size: 20; 
+        padding-top: 20;
+>>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+    }
+}
+

@@ -1,0 +1,34 @@
+.langs{
+    padding-top:20px;
+    color: white;
+}
+.langs p{
+    margin-left:20px
+}
+.lang-links{
+    display: flex;
+    justify-content: center;
+}
+.lang-links a{
+    font-weight: bold;
+    all:unset;
+    color: #8D9EFF;
+    margin: 2vmax;
+    padding:2vmax;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.lang-links a:hover{
+    color: #B9E0FF;
+    text-decoration: underline;
+    
+}
+
+@media screen and (max-width:600px){
+    .langs p{
+        margin-left: 10px;
+    }
+    .lang-links{
+        flex-direction: column;
+    }
+}
