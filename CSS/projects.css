@@ -11,7 +11,9 @@
     padding-top:200px;
 
 }
-
+.projects p{
+    font-size: 60;
+}
 
 /* .projects hr{
     position: absolute;
@@ -55,6 +57,7 @@
     transform: translateX(150px);
 }
 .project-card p{
+    font-size: 30px;
     padding-bottom: 10px; 
 }
 

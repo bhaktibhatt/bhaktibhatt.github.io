@@ -4,7 +4,7 @@
     justify-content: flex-start;
     align-items: center;
     position:fixed;
-    right:2;
+    right:0;
     z-index:2;
     background-color: #353536;
     width:7vw;
@@ -15,8 +15,8 @@
 .logo{
    position: relative;
    top:40px;
-   height: 50;
-   width:50;
+   height: 50px;
+   width:50px;
    border-radius: 25px;
 }
 .nav-links{
@@ -63,14 +63,14 @@
       padding: 2vmax;
    }
    svg{
-      width:30;
-      height:30;
+      width:30px;
+      height:30px;
    }
    .logo{
-      top:0;
+      top:0px;
       margin-right: 20px;
-      height: 30;
-      width:30;
+      height: 30px;
+      width:30px;
    }
 
 }

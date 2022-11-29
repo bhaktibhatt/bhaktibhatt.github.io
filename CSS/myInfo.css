@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    left: 200;
+    left: 200px;
     background-color: #BC6FF1;
     border-radius: 30px;
     width: 750px;
@@ -31,17 +31,9 @@
 }
 
 .intro h1{
-    font-size: 50;
+    font-size: 50px;
     font-family: 'Cabin Sketch';
 }
-
-
-/* @keyframes nameShow{
-    from{
-        transition: opacity;
-    }
-
-} */
 
 @media screen and (max-width:600px) {
     .about{
@@ -49,18 +41,18 @@
         height: 300px;
     }
     .intro{
-        left: 20;
-        top:200;
-        width:250;
+        left: 20px;
+        top:200px;
+        width:250px;
     }
 
     .intro h1{
-        font-size:30;
+        font-size:30px;
     }
     
     .intro span{
-        font-size: 20; 
-        padding-top: 20;
+        font-size: 20px; 
+        padding-top: 20px;
     }
 }
 
