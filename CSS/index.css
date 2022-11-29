@@ -2,23 +2,11 @@
 
  *{
     font-family: 'Montserrat';
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin:0;
-=======
-    margin:0%;
->>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
-=======
-    margin:0;
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     font-size: 1.1em;
     
  }
  body{
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
   margin: 0;
    background-color: #2e2d2d;
  }
@@ -44,14 +32,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #323232; 
 }
-<<<<<<< HEAD
-=======
-   background-color: #515151;
- }
  
->>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
-=======
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
+ 
  .color{
    background-color:#000000
 #6C4AB6

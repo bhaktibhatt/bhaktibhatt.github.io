@@ -4,15 +4,7 @@
     justify-content: flex-start;
     align-items: center;
     position:fixed;
-<<<<<<< HEAD
-<<<<<<< HEAD
     right:0;
-=======
-    right:2;
->>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
-=======
-    right:0;
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     z-index:2;
     background-color: #353536;
     width:7vw;
@@ -23,18 +15,8 @@
 .logo{
    position: relative;
    top:40px;
-<<<<<<< HEAD
-<<<<<<< HEAD
    height: 50px;
    width:50px;
-=======
-   height: 50;
-   width:50;
->>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
-=======
-   height: 50px;
-   width:50px;
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
    border-radius: 25px;
 }
 .nav-links{
@@ -48,15 +30,7 @@
    color: #6C4AB6;
    text-decoration: none;
    transition: all 300ms;
-<<<<<<< HEAD
-<<<<<<< HEAD
    padding:2vw 0;
-=======
-   padding:2vw;
->>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
-=======
-   padding:2vw 0;
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
 }
 .links:hover{
    color:#8672b1
@@ -89,31 +63,14 @@
       padding: 2vmax;
    }
    svg{
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
       width:30px;
       height:30px;
    }
    .logo{
-      top:0px;
-      margin-right: 20px;
-      height: 30px;
-      width:30px;
-<<<<<<< HEAD
-=======
-      width:30;
-      height:30;
-   }
-   .logo{
+      margin-right: 25px;
       top:0;
-      margin-right: 20px;
-      height: 30;
-      width:30;
->>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
-=======
->>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
+      height: 35px;
+      width:35px;
    }
 
 }
