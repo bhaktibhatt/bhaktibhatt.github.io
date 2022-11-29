@@ -4,9 +4,12 @@
     z-index: -1;
     color:white;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     background-color: #6C4AB6;
 >>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+=======
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     width: 100%;
     height:300px;
     display: flex;
@@ -23,10 +26,14 @@
     flex-direction: column;
     align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     left: 200px;
 =======
     left: 200;
 >>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+=======
+    left: 200px;
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     background-color: #BC6FF1;
     border-radius: 30px;
     width: 750px;
@@ -40,10 +47,14 @@
 
 .intro h1{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     font-size: 50px;
     font-family: 'Cabin Sketch';
 }
 
+<<<<<<< HEAD
 =======
     font-size: 50;
     font-family: 'Cabin Sketch';
@@ -58,6 +69,8 @@
 } */
 
 >>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+=======
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
 @media screen and (max-width:600px) {
     .about{
         width:100%;
@@ -65,6 +78,9 @@
     }
     .intro{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
         left: 20px;
         top:200px;
         width:250px;
@@ -77,6 +93,7 @@
     .intro span{
         font-size: 20px; 
         padding-top: 20px;
+<<<<<<< HEAD
 =======
         left: 20;
         top:200;
@@ -91,6 +108,8 @@
         font-size: 20; 
         padding-top: 20;
 >>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+=======
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     }
 }
 

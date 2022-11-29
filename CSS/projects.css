@@ -8,11 +8,15 @@
     background: rgb(108,74,182);
     background: linear-gradient(180deg, rgba(108,74,182,1) 0%, rgba(172,138,250,1) 35%, rgba(188,111,241,1) 100%);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     margin-top: 40px;
     padding-top:200px;
 
 }
 .projects p{
+<<<<<<< HEAD
     font-size: 40px;
 }
 =======
@@ -22,6 +26,10 @@
 }
 
 >>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+=======
+    font-size: 60;
+}
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
 
 /* .projects hr{
     position: absolute;
@@ -66,9 +74,13 @@
 }
 .project-card p{
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size: 30px;
 =======
 >>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
+=======
+    font-size: 30px;
+>>>>>>> aaa1eac3fef18b88dc57223a36a04b3b1d8bb20a
     padding-bottom: 10px; 
 }
 
