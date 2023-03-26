@@ -15,8 +15,7 @@ body{
   align-items: center;
   }
 .sub-container{
-  height: 400px;
-  width: 522px;
+  height: 99vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,7 +70,7 @@ body{
   background: #323232; 
 }
  
-.logo{
+.logo{position: fixed;
   margin: 20px 0 20px 20px;
   border-radius: 30px;
   height: 40px;
