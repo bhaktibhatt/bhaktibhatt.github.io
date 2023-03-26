@@ -37,7 +37,7 @@ body{
   white-space: nowrap;
   overflow: hidden;
   animation: 
-    typing 5s steps(28),
+    typing 5s steps(30),
     cursor .5s step-end infinite alternate;
 }
 @keyframes cursor{
