@@ -8,11 +8,24 @@ body{
   background-color: #1e1a2b;
   color: #fff;
  }
+ main{
+  /* padding-top: 250px; */
+  width:100%;
+  display: flex;
+  justify-content: center;
+ }
+ .space-cat-pink{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  left:200px;
+  top:90px;
+}
  .container{
+  width:80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   }
 .sub-container{
   height: 99vh;
@@ -21,7 +34,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-.sub-container p{
+.sub-container h1, p{
   margin: 0px;
   font-size: 45px;
   font-weight: 500px;
@@ -46,42 +59,27 @@ body{
   from{width:0}
   
 }
-/* step 28 */
-  /* width */
+
+  /* width scroll */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px black; 
   border-radius: 10px;
 
 }
  
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1c1c1c; 
-  border-radius: 10px;
+  background: rgb(108,74,182);
+  background: linear-gradient(180deg, rgba(108,74,182,1) 50%, rgba(74,182,78,1) 50%); 
+  border-radius: 20px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #323232; 
-}
- 
 .logo{position: fixed;
   margin: 20px 0 20px 20px;
   border-radius: 30px;
   height: 40px;
   width: 40px;
 }
- .color{
-   background-color:#000000
-#6C4AB6
-#8D72E1
-#B9E0FF
-#52057B
-#892CDC
-#BC6FF1;
- }
