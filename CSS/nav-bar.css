@@ -1,76 +1,16 @@
-.nav-bar{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+nav{
     position:fixed;
-    right:0;
-    z-index:2;
-    background-color: #353536;
-    width:7vw;
-    height: 100vh;
-    color: #6C4AB6;
-    
-   }
-.logo{
-   position: relative;
-   top:40px;
-   height: 50px;
-   width:50px;
-   border-radius: 25px;
+    right: 0px;
+    top:20px;
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 25px;
 }
-.nav-links{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   margin-top: 15vh;
-   height: 20vh;
+nav a{
+color: #c6c4c4;
 }
-.links{
-   color: #6C4AB6;
-   text-decoration: none;
-   transition: all 300ms;
-   padding:2vw 0;
-}
-.links:hover{
-   color:#8672b1
-   
-}
-.links:active{
-   color: #a782f7;
-}
-
-@media screen and (max-width:600px){
-   .nav-bar{
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      position:fixed;
-      top:0;
-      left:0;
-      width:100vw;
-      height:10vh;
-   }
-   .nav-links{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      height: 5vh;
-      margin: 2vmin;
-      padding: 2vmax;
-   }
-      
-   .links{
-      padding: 2vmax;
-   }
-   svg{
-      width:30px;
-      height:30px;
-   }
-   .logo{
-      margin-right: 25px;
-      top:0;
-      height: 35px;
-      width:35px;
-   }
-
+nav a:hover{
+    color: #ffffff;
 }

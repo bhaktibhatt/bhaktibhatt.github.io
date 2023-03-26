@@ -1,16 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
 
- *{
-    font-family: 'Montserrat';
-    margin:0;
-    font-size: 1.1em;
-    
- }
- body{
+body{
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
-   background-color: #2e2d2d;
+  background-color: #1e1a2b;
+  color: #fff;
  }
- /* width */
+ .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.sub-container{
+  height: 400px;
+  width: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container p{
+  margin: 0;
+  font-size: 45px;
+  font-weight: 500;
+}
+.intro{
+  padding-top: 30px;
+  display: inline-block;
+}
+.text{
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 5s steps(28),
+    cursor .5s step-end infinite alternate;
+}
+@keyframes cursor{
+  50%{border-color: transparent}
+}
+@keyframes typing{
+  from{width:0}
+  
+}
+/* step 28 */
+  /* width */
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -33,7 +71,12 @@
   background: #323232; 
 }
  
- 
+.logo{
+  margin: 20px 0 20px 20px;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+}
  .color{
    background-color:#000000
 #6C4AB6
