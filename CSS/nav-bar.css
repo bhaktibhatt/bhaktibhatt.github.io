@@ -5,7 +5,7 @@ nav{
     display: flex;
     height: 20%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 25px;
 }
 nav a{
