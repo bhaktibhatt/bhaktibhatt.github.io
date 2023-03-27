@@ -29,11 +29,21 @@ main{
  }
 
 .space-cat-pink{
-  position: absolute;
+  opacity: 0.5;
   height: 300px;
   width: 300px;
-  left:200px;
-  top:80px;
+  transform: translateX(200%) translateY(200%);
+  transition: all 2s ease-in-out;
+  /* left:200px;
+  top:80px; */
+}
+.space-cat-pink:hover{
+  opacity: 1;
+}
+.show{
+  position: fixed;
+  opacity: 1;
+  transform: translateX(0) translateY(-50%);
 }
 .container{
   width:80%;
@@ -116,4 +126,9 @@ main{
 .text{
   border-right:3px solid;
 }
+}
+@media(prefers-reduced-motion){
+  .space-cat-pink{
+    transition: none;
+  }
 }
