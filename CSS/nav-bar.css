@@ -10,6 +10,7 @@ nav{
 }
 nav a{
 color: #c6c4c4;
+transition: color 500ms;
 }
 nav a:hover{
     color: #ffffff;
