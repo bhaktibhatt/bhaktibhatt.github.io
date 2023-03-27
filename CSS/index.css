@@ -16,10 +16,10 @@ body{
  }
  .space-cat-pink{
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   left:200px;
-  top:90px;
+  top:85px;
 }
  .container{
   width:80%;
