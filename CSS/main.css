@@ -2,11 +2,14 @@
     font-size: 25px;
     padding: 90px;
 }
-.about h2{
+.about p{
+    font-size:26px;
+}
+.heading{
     position: relative;
     width: max-content;
 }
-.about h2::before{
+.heading::before{
     content: "";
     position: absolute;
     top: 100%;
@@ -16,27 +19,28 @@
     border-radius: 5px;
     background: linear-gradient(270deg, rgba(108,74,182,1) 50%, rgba(74,182,78,1) 50%);
 }
-.about p{
-    font-size: 30px;
-}
+
 .projects{
     font-size: 25px;
     padding: 90px;
 }
-.projects h2{
-    position: relative;
-    width: max-content;
-}
-.projects h2::before{
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    height: 3px;
-    width: 100%;
-    border-radius: 5px;
-    background: linear-gradient(270deg, rgba(108,74,182,1) 50%, rgba(74,182,78,1) 50%);
-}
+
 .projects p{
     font-size: 30px;
+}
+@media only screen and (max-width:600px){
+    .about{
+        padding: 0;
+        padding-top: 100px;
+    }
+    .projects{
+        padding: 0;
+        padding-top: 40px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .about p{
+        font-size: 20px;
+    }
 }

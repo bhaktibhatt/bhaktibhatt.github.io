@@ -74,6 +74,7 @@ main{
   }
 
 .bg-img{
+  height: 100%;
   width: 100%;
   position: fixed;
   z-index: -1;
@@ -101,23 +102,18 @@ main{
 .space-cat-pink{
   height: 200px;
   width: 200px;
-  right:0px;
-  top:140px;
-  transform: scaleX(-1);
+  left:0px;
+  top:80px;
 }
 .sub-container{
   height: 80vh;
   padding-bottom:50px;
 }
-.sub-container h1{
-  align-items: center;
-  font-size: 38px;
-}
-.sub-container p{
+
+.sub-container h1, p{
   font-size: 18px;
 }
 .text{
   border-right:3px solid;
 }
-
 }
