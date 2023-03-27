@@ -51,13 +51,20 @@ body{
   animation: 
     typing 4s steps(31),
     cursor .5s step-end infinite alternate;
-}
-@keyframes cursor{
-  50%{border-color: transparent}
-}
-@keyframes typing{
-  from{width:0}
-  
+  }
+  @keyframes cursor{
+    50%{border-color: transparent}
+  }
+  @keyframes typing{
+    from{width:0}
+    
+  }
+
+.bg-img{
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
 }
 
   /* width scroll */
