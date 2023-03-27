@@ -10,20 +10,32 @@ body{
   background-color: #1e1a2b;
   color: #fff;
  }
- main{
+.logo{
+  position: fixed;
+  margin: 20px 0 20px 20px;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  transition: opacity 500ms;
+}
+.logo:hover{
+  opacity: 0.5;
+}
+main{
   /* padding-top: 250px; */
   width:100%;
   display: flex;
   justify-content: center;
  }
- .space-cat-pink{
+
+.space-cat-pink{
   position: absolute;
   height: 350px;
   width: 350px;
   left:150px;
-  top:85px;
+  top:80px;
 }
- .container{
+.container{
   width:80%;
   display: flex;
   flex-direction: column;
@@ -59,7 +71,6 @@ body{
   }
   @keyframes typing{
     from{width:0}
-    
   }
 
 .bg-img{
@@ -84,16 +95,4 @@ body{
   background: rgb(108,74,182);
   background: linear-gradient(180deg, rgba(108,74,182,1) 50%, rgba(74,182,78,1) 50%); 
   border-radius: 20px;
-}
-
-.logo{
-  position: fixed;
-  margin: 20px 0 20px 20px;
-  border-radius: 30px;
-  height: 40px;
-  width: 40px;
-  transition: opacity 500ms;
-}
-.logo:hover{
-  opacity: 0.5;
 }
