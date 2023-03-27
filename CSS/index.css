@@ -102,7 +102,7 @@ main{
   height: 200px;
   width: 200px;
   right:0px;
-  top:200px;
+  top:140px;
   transform: scaleX(-1);
 }
 .sub-container{
