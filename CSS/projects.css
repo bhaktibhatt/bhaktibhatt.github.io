@@ -1,0 +1,33 @@
+.projects{
+    font-size: 25px;
+    padding: 90px;
+}
+
+.projects p{
+    font-size: 30px;
+}
+.card-list{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.card{
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:300px;
+    width: 250px;
+    min-width:250px;
+    padding:1.5rem;
+    transition: 0.2s;
+
+    border-radius: 16px;
+    background: #524f57;
+}
+@media only screen and (max-width:600px){
+    .projects{
+        padding: 0;
+        padding-top: 40px;
+    }
+}
