@@ -1,17 +1,45 @@
 nav{
     position:fixed;
-    right: 0px;
-    top:20px;
     display: flex;
-    height: 18%;
-    flex-direction: column;
+    min-height: 10vh;
+    width: 100%;
     justify-content: space-between;
-    padding-right: 25px;
+    align-items: center;
+    /* padding: 5px 30px; */
+}
+nav .menu{
+    display: flex;
+    width: 35vw;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 nav a{
-color: #c6c4c4;
-transition: color 500ms;
+    all:unset;
+    color: #c6c4c4;
+    /* padding-left: 20px; */
+    transition: color 500ms;
 }
 nav a:hover{
     color: #ffffff;
 }
+nav .menu a:hover{
+    text-decoration: underline;
+}
+nav .connect{
+    display: flex;
+    width: 10vw;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+  }

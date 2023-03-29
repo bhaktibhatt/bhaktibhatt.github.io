@@ -10,17 +10,6 @@ body{
   background-color: #1e1a2b;
   color: #fff;
  }
-.logo{
-  position: fixed;
-  margin: 20px 0 20px 20px;
-  border-radius: 30px;
-  height: 40px;
-  width: 40px;
-  transition: opacity 500ms;
-}
-.logo:hover{
-  opacity: 0.5;
-}
 main{
   /* padding-top: 250px; */
   width:100%;
