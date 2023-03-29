@@ -27,11 +27,6 @@ main{
   display: flex;
   justify-content: center;
  }
- .space-cat-container{
-  position: sticky;
-  top:0;
-  left:0;
- }
 .space-cat-pink{
   opacity: 1;
   position: absolute;
