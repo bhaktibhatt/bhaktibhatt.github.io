@@ -1,4 +1,4 @@
-nav{
+.navbar{
     position:fixed;
     display: flex;
     min-height: 10vh;
@@ -7,30 +7,30 @@ nav{
     align-items: center;
     /* padding: 5px 30px; */
 }
-nav .menu{
+.navbar .menu{
     display: flex;
     width: 35vw;
     align-items: center;
     justify-content: space-between;
 }
-nav ul{
+.navbar ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-nav a{
+.navbar a{
     all:unset;
     color: #c6c4c4;
     /* padding-left: 20px; */
     transition: color 500ms;
 }
-nav a:hover{
+.navbar a:hover{
     color: #ffffff;
 }
-nav .menu a:hover{
+.navbar .menu a:hover{
     text-decoration: underline;
 }
-nav .connect{
+.navbar .connect{
     display: flex;
     width: 10vw;
     padding-right: 20px;
