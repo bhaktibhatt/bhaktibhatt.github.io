@@ -36,16 +36,26 @@
     </ul>
 
     <style>
-        .navbar{
+.navbar{
     position:fixed;
     display: flex;
-    min-height: max-content;
+    min-height: 10vh;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     color: #c6c4c4;
+    border-bottom: solid 3px grey;
+    font-size: larger;
+    font-weight: 200;
     /* padding: 5px 30px; */
+    
 }
+.navbar .logo{
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+  }
 .navbar .menu{
     display: flex;
     width: 35vw;
@@ -53,6 +63,7 @@
     justify-content: space-between;
 }
 .navbar ul{
+    all:unset;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -76,11 +87,4 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.logo{
-    border-radius: 30px;
-    height: 40px;
-    width: 40px;
-    margin-left: 20px;
-  }
     </style>
