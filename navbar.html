@@ -1,4 +1,69 @@
-<ul class="menu">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        .navbar{
+          position:fixed;
+          display: flex;
+          min-height: 10vh;
+          width: 100%;
+          justify-content: space-between;
+          align-items: center;
+          color: #c6c4c4;
+          /* border-bottom: solid 3px grey; */
+          font-size: larger;
+          font-weight: 300px;
+          /* padding: 5px 30px; */
+          
+        }
+        .navbar .logo{
+          border-radius: 30px;
+          height: 40px;
+          width: 40px;
+          margin-left: 20px;
+        }
+        .navbar .menu{
+          display: flex;
+          width: 35vw;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .navbar ul{
+          all:unset;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        .navbar a{
+          all:unset;
+          color: #c6c4c4;
+          /* padding-left: 20px; */
+          transition: color 500ms;
+        }
+        .navbar a:hover{
+          color: #ffffff;
+        }
+        .navbar .menu a{
+          transition: all 500ms;
+        }
+        .navbar .menu a:hover{
+          text-decoration: underline;
+        }
+        .navbar .connect{
+          display: flex;
+          width: 10vw;
+          margin-right: 20px;
+          align-items: center;
+          justify-content: space-between;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul class="menu">
         <li>
             <a href="#top">
                 <img src="Assets/logo.png" alt="MyLogo" class="logo">
@@ -31,60 +96,8 @@
                 </svg>
             </a>
         </li>
-        
-        
     </ul>
-
-    <style>
-.navbar{
-    position:fixed;
-    display: flex;
-    min-height: 10vh;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    color: #c6c4c4;
-    border-bottom: solid 3px grey;
-    font-size: larger;
-    font-weight: 200;
-    /* padding: 5px 30px; */
     
-}
-.navbar .logo{
-    border-radius: 30px;
-    height: 40px;
-    width: 40px;
-    margin-left: 20px;
-  }
-.navbar .menu{
-    display: flex;
-    width: 35vw;
-    align-items: center;
-    justify-content: space-between;
-}
-.navbar ul{
-    all:unset;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.navbar a{
-    all:unset;
-    color: #c6c4c4;
-    /* padding-left: 20px; */
-    transition: color 500ms;
-}
-.navbar a:hover{
-    color: #ffffff;
-}
-.navbar .menu a:hover{
-    text-decoration: underline;
-}
-.navbar .connect{
-    display: flex;
-    width: 20vw;
-    padding-right: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-    </style>
+</body>
+</html>
+
