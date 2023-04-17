@@ -39,6 +39,7 @@
     color: #c6c4c4;
     /* padding-left: 20px; */
     transition: color 500ms;
+    cursor: pointer;
   }
   .navbar a:hover {
     color: #ffffff;
