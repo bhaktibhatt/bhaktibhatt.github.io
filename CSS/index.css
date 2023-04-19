@@ -36,11 +36,11 @@ main {
 /* .space-cat-pink:hover{
   opacity: 1;
 } */
-.show {
+/* .show {
   position: fixed;
   opacity: 1;
   transform: translateX(0) translateY(-50%);
-}
+} */
 .container {
   width: 80%;
   display: flex;

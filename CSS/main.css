@@ -1,9 +1,9 @@
-.about{
+section{
     font-size: 25px;
     padding: 90px;
 }
-.about p{
-    font-size:26px;
+section p{
+    font-size:20px;
 }
 .heading{
     position: relative;
@@ -17,16 +17,27 @@
     height: 3px;
     width: 100%;
     border-radius: 5px;
-    background: linear-gradient(270deg, rgba(108,74,182,1) 50%, rgba(74,182,78,1) 50%);
+    background: linear-gradient(270deg, rgb(108, 74, 182) 50%, rgba(74,182,78,1) 50%);
+}
+.hobbies .heading{
+    font-size: 25px;
+}
+.hobbies section a{
+    all:unset;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.hobbies section a:hover{
+    color:#6c4ab6;
 }
 
-
 @media only screen and (max-width:600px){
-    .about{
+    section{
         padding: 0;
         padding-top: 100px;
     }
-    .about p{
+    section p{
         font-size: 20px;
     }
         .heading{
