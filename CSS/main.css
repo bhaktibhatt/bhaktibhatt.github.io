@@ -1,5 +1,4 @@
 section{
-    font-size: 25px;
     padding: 90px;
 }
 section p{
@@ -22,14 +21,18 @@ section p{
 .hobbies .heading{
     font-size: 25px;
 }
-.hobbies section a{
+.hobbies a{
     all:unset;
     text-decoration: underline;
     cursor: pointer;
     transition: all 200ms;
+    color: #fff;
 }
-.hobbies section a:hover{
-    color:#6c4ab6;
+.hobbies a:hover{
+    color:#757ed3;
+}
+.hobbies a:active{
+    color:#757ed3;
 }
 
 @media only screen and (max-width:600px){
