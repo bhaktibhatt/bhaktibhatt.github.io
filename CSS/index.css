@@ -87,7 +87,7 @@ main {
 .bg-img {
   position: absolute;
   z-index: -1;
-  left:20px;
+  left:0px;
 }
 
 /* width scroll */
