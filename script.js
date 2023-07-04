@@ -11,8 +11,16 @@
 // })
 const hamBtn = document.querySelector(".ham");
 const mobileMenu = document.querySelector(".mobile-nav");
-console.log(mobileMenu)
+const spaceCat = document.getElementById("space-cat");
+console.log(spaceCat);
+console.log(mobileMenu);
 hamBtn.addEventListener('click', function(){
     console.log("ham clicked")
     mobileMenu.classList.toggle("is-active")
+    if(mobileMenu.classList.contains('is-active')){
+        spaceCat.style.position = "fixed";
+    }
+    else
+    spaceCat.style.position = "null";
 })
+
