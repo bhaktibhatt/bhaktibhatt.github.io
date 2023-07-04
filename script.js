@@ -18,9 +18,12 @@ hamBtn.addEventListener('click', function(){
     console.log("ham clicked")
     mobileMenu.classList.toggle("is-active")
     if(mobileMenu.classList.contains('is-active')){
+        console.log(mobileMenu.classList.contains('is-active'));
         spaceCat.style.position = "fixed";
     }
-    else
-    spaceCat.style.position = "null";
+    else if (mobileMenu.classList) {
+        console.log(mobileMenu.classList.contains('is-active'));
+        spaceCat.style.position = "absolute";
+    }
 })
 
