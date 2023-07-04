@@ -1,8 +1,8 @@
-section{
+.about, .hobbies{
     padding: 80px;
     width: 100%;
 }
-section p{
+.about, .hobbies p{
     font-size:20px;
 }
 .heading{
@@ -37,17 +37,18 @@ section p{
 }
 
 @media only screen and (max-width:600px){
-    section{
+    .about, .hobbies{
         padding: 0;
-        padding-top: 100px;
+        margin-top: 100px;
     }
-    section p{
+    .about, .hobbies p{
         font-size: 20px;
         text-align: center;
         float: right;
     }
     .heading{
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
+        width: auto;
     }
 }
