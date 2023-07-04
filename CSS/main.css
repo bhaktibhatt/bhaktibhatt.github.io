@@ -1,5 +1,6 @@
 section{
-    padding: 90px;
+    padding: 80px;
+    width: 100%;
 }
 section p{
     font-size:20px;
@@ -18,8 +19,8 @@ section p{
     border-radius: 5px;
     background: linear-gradient(270deg, rgb(108, 74, 182) 50%, rgba(74,182,78,1) 50%);
 }
-.hobbies .heading{
-    font-size: 25px;
+.heading{
+    font-size: 20px;
 }
 .hobbies a{
     all:unset;
@@ -42,8 +43,11 @@ section p{
     }
     section p{
         font-size: 20px;
+        text-align: center;
+        float: right;
     }
-        .heading{
-            font-size: 25px;
+    .heading{
+        text-align: center;
+        font-size: 30px;
     }
 }

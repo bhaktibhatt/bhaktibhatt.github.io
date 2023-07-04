@@ -4,3 +4,8 @@
 // .then(data=>{
 //     nav.innerHTML = data
 // })
+const hamMenu = document.querySelectorAll('.ham');
+const mobileMenu = document.querySelectorAll(".mobile-nav");
+hamMenu.addEventListener('click',function (){
+    mobileMenu.classList.toggle('is-active');
+})
