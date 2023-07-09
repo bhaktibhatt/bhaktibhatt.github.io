@@ -1,32 +1,71 @@
 .projects{
+    width: 100%;
     font-size: 25px;
-    padding: 90px;
-}
+    padding: 60 90;
 
+}
+.projects .heading::before{
+    margin-top: 8px;
+}
 .projects p{
     font-size: 30px;
 }
 .card-list{
+    width: 100%;
     display: flex;
     padding: 20px;
     justify-content: space-between;
+    align-items: center;
+    max-height: max-content;
 }
 .card{
-    position: relative;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height:300px;
-    width: 250px;
+    width: 350px;
     min-width:250px;
-    padding:1.5rem;
+    padding:0.5rem;
     transition: 0.2s;
-    border-radius: 30px;
+    border-radius: 20px;
     background: #524f57;
+}
+.card img{
+    height: 210px;
+    width: 350px;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.card:hover{
+    border-image:linear-gradient(
+        180deg,rgba(108, 74, 182, 1) 50%,rgba(74, 182, 78, 1) 50%) 1;
+    border: 2px solid;
+    border-radius: 20px; 
 }
 @media only screen and (max-width:600px){
     .projects{
         padding: 0;
-        padding-top: 40px;
+        padding-top: 8vh;
+    }
+    .card-list{
+        flex-direction: column  ;
+    }
+    .card{
+        margin:2rem;
+    }
+    
+}
+@media only screen and (max-width:950px){
+    .projects{
+        padding: 90 15;
+    }
+    .card-list{
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .card{
+        margin: 3.5rem;
     }
 }

@@ -36,7 +36,11 @@
 .hobbies a:active{
     color:#757ed3;
 }
-
+footer{
+    width: 100%;
+    height: 7vh;
+    background-color: #342D4B;
+}
 @media only screen and (max-width:600px){
     .about, .hobbies{
         padding: 0;
