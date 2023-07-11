@@ -12,6 +12,7 @@
 const hamBtn = document.querySelector(".ham");
 const mobileMenu = document.querySelector(".mobile-nav");
 const spaceCat = document.getElementById("space-cat");
+const observer = new IntersectionObserver((entries)=>{
 console.log(spaceCat);
 console.log(mobileMenu);
 hamBtn.addEventListener('click', function(){
@@ -27,3 +28,15 @@ hamBtn.addEventListener('click', function(){
     }
 })
 
+    entries.forEach((entry)=>{
+        console.log(entry)
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else{
+            entry.target.classList.remove('show')
+        }
+    });
+});
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el)=>observer.observe(el));
