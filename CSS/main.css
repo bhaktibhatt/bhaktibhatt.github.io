@@ -63,4 +63,7 @@
         width: auto;
         z-index: -1;
     }
+    .hobbies {
+        margin-bottom: 90px;
+    }
 }
