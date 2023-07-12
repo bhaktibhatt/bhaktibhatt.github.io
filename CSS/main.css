@@ -2,6 +2,9 @@
     padding: 80px;
     width: 100%;
 }
+.about{
+    margin-top: 20px;
+}
 .about, .hobbies p{
     font-size:20px;
 }
