@@ -9,6 +9,16 @@
 // hamMenu.addEventListener('click',function (){
 //     mobileMenu.classList.toggle('is-active');
 // })
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+  
+    loader.classList.add("loader--hidden");
+  
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild(loader);
+    });
+  });
+  
 const hamBtn = document.querySelector(".ham");
 const mobileMenu = document.querySelector(".mobile-nav");
 const spaceCat = document.getElementById("space-cat");
