@@ -29,6 +29,7 @@ main {
   justify-content: center;
   background: #1e1a2b;
   transition: opacity 0.8s, visibility 0.8s;
+  z-index: 30;
 }
 .loader--hidden {
   opacity: 0;
