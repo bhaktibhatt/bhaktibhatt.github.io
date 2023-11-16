@@ -1,2 +1,2 @@
 # My Portfolio Website<br>
-link: https://bhaktibhatt.github.io/portfolio/
+link: https://bhaktibhatt.github.io
