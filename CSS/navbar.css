@@ -36,7 +36,7 @@
     color: #c6c4c4;
     transition: color 500ms;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0.8rem;
   }
   .navbar-links a:hover {
     color: #ffffff;
